@@ -3,3 +3,39 @@ div{
   min-width: 100px;
   border: 1px solid black;
 }
+
+.huber{
+  background: red;
+}
+
+#lisa{
+  background:purple;
+}
+
+.huber #lisa{
+  background: yellow;
+}
+
+div.huber #lisa{
+  background: green;
+}
+
+.huber #lisa.meier{
+  background: black;
+}
+
+.meier {
+  background: pink;
+}
+
+div.meier{
+  background: olive;
+}
+
+body div.meier{
+  background: grey;
+}
+
+#luis{
+  background: red;
+}
